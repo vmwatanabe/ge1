@@ -1,12 +1,18 @@
 import Header from "../../components/Header";
+import HeadlinerMosaic from "../../components/HeadlinerMosaic";
+import MainContainer from "../../components/MainContainer";
 import { BASE_URL } from "../../config";
+import "./Home.scss";
 
 function Home({ data }) {
-  console.log(data);
+  const { articles } = data;
 
   return (
     <div className="home">
       <Header />
+      <MainContainer>
+        <HeadlinerMosaic articles={articles} />
+      </MainContainer>
     </div>
   );
 }
