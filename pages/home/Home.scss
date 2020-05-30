@@ -2,4 +2,17 @@
   .headliner-mosaic {
     margin-top: 64px;
   }
+
+  .news-container {
+    display: flex;
+  }
+
+  .news-list {
+    flex: 3;
+    margin-top: 64px;
+  }
+
+  .placeholder {
+    flex: 1;
+  }
 }

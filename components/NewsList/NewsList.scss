@@ -1,0 +1,7 @@
+.news-list {
+  .news-card {
+    &:not(:first-child) {
+      margin-top: 32px;
+    }
+  }
+}
