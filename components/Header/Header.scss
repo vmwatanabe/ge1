@@ -1,0 +1,30 @@
+.header {
+  background-color: #c4170f;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-transform: uppercase;
+  padding: 0px 16px;
+
+  &__logo {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+.header-menu {
+  font-size: 14px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+
+  &__icon {
+    font-size: 20px;
+  }
+
+  &__text {
+    padding-left: 4px;
+  }
+}
